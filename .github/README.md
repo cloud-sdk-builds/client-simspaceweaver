@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-simspaceweaver`](https://www.npmjs.com/package/@aws-sdk/client-simspaceweaver/v/3.989.0).
+[`@aws-sdk/client-simspaceweaver`](https://www.npmjs.com/package/@aws-sdk/client-simspaceweaver/v/3.990.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.989.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.990.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-BvRWyrZl3HL0vSp2s/fwWhUo+0vC6WhjxDoY8dW4TFlX9cCBiW4u0qhUIEv4jmAl
+sha384-o1LNoM+5HcEZH7210zpqoCQbVob6uPL1+N467Wix+K8P3oEAB1WhWrwVV5i2F7hF
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-simspaceweaver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.989.0/index.min.mjs"
+            "@aws-sdk/client-simspaceweaver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.990.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.989.0/index.min.mjs": "sha384-BvRWyrZl3HL0vSp2s/fwWhUo+0vC6WhjxDoY8dW4TFlX9cCBiW4u0qhUIEv4jmAl"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.990.0/index.min.mjs": "sha384-o1LNoM+5HcEZH7210zpqoCQbVob6uPL1+N467Wix+K8P3oEAB1WhWrwVV5i2F7hF"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-simspaceweaver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.989.0/index.min.mjs"
+                        "@aws-sdk/client-simspaceweaver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.990.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.989.0/index.min.mjs": "sha384-BvRWyrZl3HL0vSp2s/fwWhUo+0vC6WhjxDoY8dW4TFlX9cCBiW4u0qhUIEv4jmAl"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-simspaceweaver@3.990.0/index.min.mjs": "sha384-o1LNoM+5HcEZH7210zpqoCQbVob6uPL1+N467Wix+K8P3oEAB1WhWrwVV5i2F7hF"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.989.0`)
+* Always pin to a specific version (`@3.990.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-simspaceweaver/blob/refs/tags/3.989.0/LICENSE
+https://github.com/cloud-sdk-builds/client-simspaceweaver/blob/refs/tags/3.990.0/LICENSE
 ```
 
 ---
